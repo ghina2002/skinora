@@ -8,7 +8,7 @@
 <body>
 
 <div class="top-bar">
-  Delivery Fees 5$ Cash on Delivery
+  Delivery Fees 4$ Cash on Delivery
 </div>
 
 <header class="navbar">
@@ -21,7 +21,7 @@
   <div class="icons">
     <span>🔍</span>
     <span>👤</span>
-    <span class="cart" onclick="toggleCart">🛒<span class="badge">0</span></span>
+    <span class="cart" onclick="toggleCart()">🛒<span class="badge">0</span></span>
   </div>
 </header>
 
@@ -52,18 +52,12 @@
     <h2>Shopping cart (<span id="cart-count">0</span>)</h2>
     <span onclick="toggleCart()">✖</span>
   </div>
-
   <div id="cart-items"></div>
-
   <div class="cart-footer">
     <p>Subtotal: $<span id="subtotal">0</span></p>
-    <button class="checkout-btn">Checkout</button>
+    <button class="checkout-btn" onclick="goCheckout()">Checkout</button>
   </div>
-
 </div>
-
-
-
 <script src="script.js"></script>
 </body>
 </html>
