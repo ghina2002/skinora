@@ -318,69 +318,6 @@ body {
 /* ================= MOBILE RESPONSIVE ================= */
 
  /* ========== MOBILE RESPONSIVE ========== */
-@media (max-width: 768px) {
 
-  body {
-    padding: 10px;
-  }
-
-  .products {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .product {
-    width: 100%;
-    padding: 15px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-  }
-
-  .product img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .product h4 {
-    font-size: 18px;
-  }
-
-  .product p {
-    font-size: 16px;
-  }
-
-  .product button {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-  }
-
-  .cart {
-    width: 100%;
-    right: -100%;
-  }
-
-  .cart.open {
-    right: 0;
-  }
-
-  .checkout-container {
-    width: 100%;
-    padding: 15px;
-  }
-
-  input, select, button {
-    width: 100%;
-    font-size: 16px;
-    padding: 12px;
-    margin-top: 8px;
-  }
-
-  h1, h2, h3, h4 {
-    font-size: 20px;
-  }
 
 }
