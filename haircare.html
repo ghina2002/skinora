@@ -9,18 +9,27 @@
 <h1>Haircare Products</h1>
 
 <div class="products">
-  <div class="product">
-    <img src="images/product1.jpg" width="100">
-    <h4>Shampoo</h4>
-    <p>$20</p>
+   <div class="product">
+    <img src="product3.jpg">
+    <h4>Kerastase Shampoo</h4>
+    <p>$27</p>
+    <button onclick="addToCart('Kerastase Shampoo', 27, 'product3.jpg')">
+  Add to Cart
+</button>
+  </div>
+  <div id="cart" class="cart">
+  <div class="cart-header">
+    <h2>Shopping cart (<span id="cart-count">0</span>)</h2>
+    <span onclick="toggleCart()">✖</span>
   </div>
 
-  <div class="product">
-    <img src="images/product2.jpg" width="100">
-    <h4>Hair Oil</h4>
-    <p>$15</p>
+  <div id="cart-items"></div>
+
+  <div class="cart-footer">
+    <p>Subtotal: $<span id="subtotal">0</span></p>
+    <button class="checkout-btn" onclick="goCheckout()">Checkout</button>
   </div>
 </div>
-
+<script src="haircare.js"></script>
 </body>
 </html>
