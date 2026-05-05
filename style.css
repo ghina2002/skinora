@@ -68,7 +68,7 @@ body {
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-  background: #0c0c0c;
+  background: red;
   color: white;
   border: none;
   padding: 12px 30px;
