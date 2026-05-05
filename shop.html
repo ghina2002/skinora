@@ -7,24 +7,32 @@
 </head>
 <body>
 
-<h1 style="padding:20px;">All Products</h1>
+<h1 style="padding:20px;color: #f428a9;"><b><i><u>All Products</u></i></b></h1>
 <span class="cart" onclick="toggleCart()">🛒</span>
 <div class="products">
 
   <div class="product">
-    <img src="images/product1.jpg">
+    <img src="product1.jpg">
     <h4>Anua-Niacinamide 10% + txa 4% Serum</h4>
+    <p >$27</p> 
+    <button onclick="addToCart('Anua-Niacinamide', 27, 'images/product1.jpg')">
+  Add to Cart
+</button>
+  </div>
+   <div class="product">
+    <img src="product3.jpg">
+    <h4>Kerastase GENESIS Serum Anti-Chute </h4>
     <p>$27</p>
-    <button onclick="addToCart('Product 1', 20, 'images/product1.jpg')">
+    <button onclick="addToCart('Kerastase genesis serum', 27, 'product3.jpg')">
   Add to Cart
 </button>
   </div>
 
   <div class="product">
-    <img src="images/product2.jpg">
+    <img src="product2.jpg">
     <h4>Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum</h4>
     <p>$27</p>
-    <button onclick="addToCart('Product 2', 30, 'images/product2.jpg')">
+    <button onclick="addToCart('Anua Azelaic Acid', 27, 'images/product2.jpg')">
   Add to Cart
 </button>
   </div>
