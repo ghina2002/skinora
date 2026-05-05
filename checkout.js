@@ -42,7 +42,6 @@ async function submitOrder() {
     alert(error.message);
     return;
   }
-
   const orderId = data[0].id;
 
   // 2️⃣ نحفظ order_items (هيدا اللي ناقص عندك ❌)
