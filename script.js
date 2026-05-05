@@ -22,54 +22,54 @@ function toggleCart() {
 }
 const products = [
   {
-    name: "Product 1",
+    name: "shampoo",
     price: 20,
-    image: "images/product1.jpg"
+    image: "product1.jpg"
   },
   {
     name: "Product 2",
     price: 30,
-    image: "images/product2.jpg"
+    image: "product2.jpg"
   },
   {
     name: "Product 3",
      price: 30,
-    image: "images/product3.jpg"
+    image: "product3.jpg"
   },
    {
     name: "Product 4",
      price: 30,
-    image: "images/product4.jpg"
+    image: "product4.jpg"
   },
    {
     name: "Product 5",
      price: 30,
-    image: "images/product5.jpg"
+    image: "product5.jpg"
   },
    {
     name: "Product 6",
      price: 30,
-    image: "images/product6.jpg"
+    image: "product6.jpg"
   },
    {
     name: "Product 7",
      price: 30,
-    image: "images/product7.jpg"
+    image: "product7.jpg"
   },
    {
     name: "Product 8",
      price: 30,
-    image: "images/product8.jpg"
+    image: "product8.jpg"
   },
    {
     name: "Product 9",
      price: 30,
-    image: "images/product9.jpg"
+    image: "product9.jpg"
   },
    {
     name: "Product 10",
      price: 30,
-    image: "images/product10.jpg"
+    image: "product10.jpg"
   },
 ];
 
@@ -89,14 +89,10 @@ function renderCart() {
   const container = document.getElementById("cart-items");
   const count = document.getElementById("cart-count");
   const subtotal = document.getElementById("subtotal");
-
   container.innerHTML = "";
-
   let total = 0;
-
   cart.forEach((item, index) => {
     total += item.price * item.qty;
-
     container.innerHTML += `
       <div class="cart-item">
         <img src="${item.image}">
